@@ -51,7 +51,7 @@ const Task = (props) => {
             <div>
               <CardTitle style={{ color: "#007cff" }}>Modues</CardTitle>
               <CardDescription className="text-gray-400">
-                Modules hogaya
+               
               </CardDescription>
             </div>
             <div>
@@ -156,9 +156,9 @@ const Task = (props) => {
             </TableHeader>
             <TableBody>
               <TableRow className="border-gray-800 hover:bg-white">
-                <TableCell>Twitter Like Retweek</TableCell>
-                <TableCell>1000</TableCell>
-                <TableCell>Daily</TableCell>
+                <TableCell>Introduction to Financial Planning</TableCell>
+                <TableCell>Understanding the basics of financial planning for a secure financial future</TableCell>
+                <TableCell>20-06-2024</TableCell>
                 <TableCell>
                   <Select>
                     <SelectTrigger

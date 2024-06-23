@@ -51,7 +51,7 @@ const Task = (props) => {
             <div>
               <CardTitle style={{ color: "#007cff" }}>Tasks</CardTitle>
               <CardDescription className="text-gray-400">
-                Tasks hogaya
+                
               </CardDescription>
             </div>
             <div>
@@ -146,15 +146,15 @@ const Task = (props) => {
             <TableHeader>
               <TableRow className="hover:bg-white">
                 <TableHead> Name</TableHead>
-                <TableHead>Price</TableHead>
+                <TableHead>Coins</TableHead>
                 <TableHead>Category</TableHead>
                 <TableHead>Status</TableHead>
               </TableRow>
             </TableHeader>
             <TableBody>
               <TableRow className="border-gray-800 hover:bg-white">
-                <TableCell>Twitter Like Retweek</TableCell>
-                <TableCell>1000</TableCell>
+                <TableCell>Set saving goal more than 10,000</TableCell>
+                <TableCell>10</TableCell>
                 <TableCell>Daily</TableCell>
                 <TableCell>
                   <Select>
